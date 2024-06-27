@@ -2,6 +2,10 @@
 
 /* General Styles */
 body {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -11,10 +15,28 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
+<<<<<<< HEAD
+=======
+=======
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+>>>>>>> cb1b4886ede7684b33b5c6d4baa3a1235ffe6f19
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
 }
 
 /* Services Section */
 .services h2 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
   font-family: Manrope, sans-serif;
   font-size: 38px;
   font-weight: 700;
@@ -32,10 +54,36 @@ a {
 ul {
   list-style: none;
   padding: 0;
+<<<<<<< HEAD
+=======
+=======
+    font-family: Manrope, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #333333; /* Assuming the color to be consistent with the design */
+    margin-bottom: 30px; /* Retaining the existing margin-bottom */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+>>>>>>> cb1b4886ede7684b33b5c6d4baa3a1235ffe6f19
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
 }
 
 /* Header */
 header {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
   background-color: #ffffff;
   padding: 10px 0;
   border-bottom: 1px solid #e0e0e0;
@@ -67,10 +115,54 @@ nav ul {
 nav a {
   color: #333333;
   font-weight: bold;
+<<<<<<< HEAD
+=======
+=======
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    height: 40px; /* Set a fixed height for the navbar */
+    align-items: center; /* Center items vertically within the navbar */
+
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Ensures a maximum width for the container */
+
+}
+
+
+.logo img {
+    max-height: 50px; /* Adjust this value as needed */
+}
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%; /* Ensure the logo div takes full height of the header */
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #333333;
+    font-weight: bold;
+>>>>>>> cb1b4886ede7684b33b5c6d4baa3a1235ffe6f19
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
 }
 
 /* Hero Section */
 .hero {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
   background-color: #f5dfdf;
   width: 1200px;
   height: 352px;
@@ -149,10 +241,100 @@ nav a {
   height: 300px;
   border-radius: 10px 10px 10px 10px;
   opacity: 1; /* Set to 1 for visibility */
+<<<<<<< HEAD
+=======
+=======
+    background-color: #f5dfdf;
+    width: 1200px;
+    height: 352px;
+    margin: 65px auto 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    opacity: 1;
+    position: relative; /* Ensure child absolute positioning works correctly */
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    padding: 20px; /* Add padding for better spacing */
+
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-content {
+    max-width: 50%;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.hero-content p {
+    font-family: Manrope, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-bottom: 30px;
+    color: #666666;
+}
+
+.hero-buttons {
+    gap: 20px;
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.hero-image {
+    position: absolute;
+    top: 27px;
+    left: 800px;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 1; /* Set to 1 for visibility */
+>>>>>>> cb1b4886ede7684b33b5c6d4baa3a1235ffe6f19
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
 }
 
 /* Services Section */
 .services-grid {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
@@ -208,10 +390,75 @@ nav a {
   font-size: 1rem;
   margin-bottom: 20px;
   color: #333333;
+<<<<<<< HEAD
+=======
+=======
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 200px;
+}
+
+.service-card {
+    flex: 0 1 calc(33.333% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding shadow for better appearance */
+    transition: transform 0.3s; /* Adding transition for hover effect */
+}
+
+.service-card:hover {
+    transform: translateY(-10px); /* Adding hover effect */
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.service-card p {
+    font-size: 0.875rem;
+    color: #666666;
+}
+
+
+/* Guide Section */
+/* Guide Section */
+.guide {
+    width: 725px;
+    height: 153px;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 50px; /* Adjust as needed for spacing */
+    border-radius: 10px 0px 0px 0px;
+    background-color: #F3F4F6;
+    opacity: 1; /* Ensure it is visible */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding for better text spacing */
+}
+
+.guide p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #333333;
+>>>>>>> cb1b4886ede7684b33b5c6d4baa3a1235ffe6f19
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
 }
 
 /* Footer */
 footer {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
   background-color: #333333;
   color: #ffffff;
   padding: 9px 0; /* Correct padding value */
@@ -487,4 +734,150 @@ footer p {
   background-color: #fff;
   color: #007bff;
   border: 1px solid #007bff;
+<<<<<<< HEAD
+=======
+=======
+    background-color: #333333;
+    color: #ffffff;
+    padding: 9px 0; /* Correct padding value */
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed for spacing */
+
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 6px;
+}
+
+footer a {
+    color: #ffffff;
+    font-size: 0.875rem;
+}
+
+footer p {
+    font-size: 0.875rem;
+    margin: 10;
+}
+
+
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .hero {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        margin-left: 0;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: auto;
+    }
+
+    .hero-image {
+        position: static;
+        margin: 20px 0;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .services-grid {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .service-card {
+        flex: 0 1 calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .service-card {
+        flex: 0 1 100%;
+    }
+
+    .guide {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    header .container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 1.25rem;
+    }
+
+    .hero-content p {
+        font-size: 0.875rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+
+    .services h2 {
+        font-size: 2rem;
+    }
+    
+    .services-grid {
+        gap: 15px;
+    }
+    
+    .service-card h3 {
+        font-size: 1rem;
+    }
+
+    .service-card p {
+        font-size: 0.75rem;
+    }
+    
+    .guide {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    footer ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+>>>>>>> cb1b4886ede7684b33b5c6d4baa3a1235ffe6f19
+>>>>>>> 70394de1eef0538908c7bbb3720b09a0291ab5ef
 }
